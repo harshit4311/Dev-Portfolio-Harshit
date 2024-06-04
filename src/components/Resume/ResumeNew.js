@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "/Users/harshit/react.js-portfolio-harshit/src/Assets/Resume.pdf";
+import pdf from '../../Assets/Resume.pdf';
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
