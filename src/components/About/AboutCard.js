@@ -12,6 +12,7 @@ function AboutCard() {
             from <span className="purple"> Mumbai, IN</span>
             <br />
             I'm a Freshman @ BITS Pilani
+            I'm currently a working on a Capstone Project (AI & Deep Learning) @ <span className="purple"> The University of Oxford</span>
             <br />
             My hobbies apart from coding/solving problems:
           </p>
@@ -38,4 +39,3 @@ function AboutCard() {
 }
 
 export default AboutCard;
-
