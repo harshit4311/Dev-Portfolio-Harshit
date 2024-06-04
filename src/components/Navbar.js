@@ -52,7 +52,7 @@ function NavBar() {
               ))}
               <Nav.Item className="fork-btn">
                 <Button
-                    href="https://github.com/mayank1365/portfolio"
+                    href="https://github.com/harshit4311"
                     target="_blank"
                     className="fork-btn-inner"
                 >
@@ -68,4 +68,3 @@ function NavBar() {
 }
 
 export default NavBar;
-// Path: src/components/About/About.js
