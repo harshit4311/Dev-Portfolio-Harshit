@@ -5,9 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from "/Users/harshit/portfolio-harshit/src/Assets/Harshit Shah-UpdatedResume copy.pdf";
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import pdf from "/Users/harshit/react.js-portfolio-harshit/src/Assets/Resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -23,21 +21,23 @@ function ResumeNew() {
   );
 
   return (
-      <Container fluid className="resume-section">
-        <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          {downloadButton}
-        </Row>
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          {downloadButton}
-        </Row>
-      </Container>
+    <Container fluid className="resume-section">
+      <Particle />
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+        {downloadButton}
+      </Row>
+      <Row className="resume">
+        <Document file={pdf} className="d-flex justify-content-center">
+          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+        </Document>
+      </Row>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+        {downloadButton}
+      </Row>
+    </Container>
   );
 }
 
 export default ResumeNew;
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
