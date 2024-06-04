@@ -10,16 +10,16 @@ function Footer() {
         <Row className="footer-row">
 
           <Col md="4" className="footer-copywright">
-            <h3>Designed and Developed by Mayank Gupta</h3>
+            <h3>@ 2024 All rights reserved</h3>
           </Col>
           <Col md="4" className="footer-copywright">
-            <h3>Portfolio</h3>
+            <h3>∞</h3>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                    href="https://github.com/mayank1365"
+                    href="https://github.com/harshit4311"
                     style={{ color: "white" }}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Footer() {
               </li>
               <li className="social-icons">
                 <a
-                    href="https://www.linkedin.com/in/mayank-gupta-dev/"
+                    href="https://www.linkedin.com/in/harshit-shah16/"
                     style={{ color: "white" }}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -45,3 +45,4 @@ function Footer() {
 }
 
 export default Footer;
+
