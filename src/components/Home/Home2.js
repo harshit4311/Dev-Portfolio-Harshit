@@ -15,7 +15,7 @@ function Home2() {
                 ABOUT<span className="purple"> ME </span>
               </h1>
               <p className="home-about-body">
-                I'm a Freshman @ BITS Pilani & Scaler School of Technology
+                I'm a Freshman @ BITS Pilani & Scaler School of Technology.
                 <br />
                 <br />Programming Languages I know:
                 <i>
@@ -23,14 +23,14 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                I also am a Machine Learning Enthusiast
+                I'm also a Machine Learning Enthusiast!
                 <br />
                 <br />
-                Frameworks I work with: <b className="purple">Node.js</b> and
+                Frameworks I work with: <b className="purple"> Spring Boot,</b>
                 <i>
                   <b className="purple">
                     {" "}
-                    Spring Boot, React.js, Hibernate ORM's, etc.
+                    React.js, Node.js, Hibernate ORM's, etc.
                   </b>
                 </i>
               </p>
@@ -45,7 +45,7 @@ function Home2() {
             <Col md={12} className="home-about-social">
               <h1>CONNECT WITH ME</h1>
               <p>
-                Feel free to <span className="purple">react out </span> to me
+                Feel free to <span className="purple">react out </span> to me:
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
