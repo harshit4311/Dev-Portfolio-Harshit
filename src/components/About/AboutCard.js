@@ -11,7 +11,7 @@ function AboutCard() {
             Hello! I'm <span className="purple">Harshit Shah </span>
             from <span className="purple"> Mumbai, IN</span>
             <br />
-            I'm a CS Freshman @ BITS Pilani, currently a working on a Capstone Project in <span className="purple"> AI & Deep Learninng </span> @ <span className="purple"> The University of Oxford</span>
+            I'm a CS Freshman @ BITS Pilani, currently a working on a Capstone Project in <span className="purple"> AI & Deep Learning </span> @ <span className="purple"> The University of Oxford</span>
             <br />
             In addition to coding and problem-solving, my hobbies include:
           </p>
