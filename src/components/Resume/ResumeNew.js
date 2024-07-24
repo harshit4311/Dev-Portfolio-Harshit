@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import pdf from 'src/Assets/Resume-Harshit Shah(Scaler Template).pdf';
+import pdf from '../src/Assets/Resume-Harshit Shah(Scaler Template).pdf';
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
