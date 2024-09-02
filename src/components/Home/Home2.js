@@ -15,11 +15,11 @@ function Home2() {
                 ABOUT<span className="purple"> ME </span>
               </h1>
               <p className="home-about-body">
-                I'm a Freshman @ BITS Pilani & Scaler School of Technology.
+                I'm a CS Sophomore @ BITS Pilani & Scaler School of Technology.
                 <br />
                 <br />Programming Languages I know:
                 <i>
-                  <b className="purple"> Java, Python, Javascript, C/C++</b>
+                  <b className="purple"> Java, Python, SQL, Javascript, C/C++</b>
                 </i>
                 <br />
                 <br />
